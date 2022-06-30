@@ -1,0 +1,11 @@
+var obj1={
+    name:"person1",
+    age:"5"
+};
+var obj2={
+    age:"5",
+    name:"person1"
+};
+_.isequal(obj1,obj2) //true
+
+//isequal is the best way to compare two json object
